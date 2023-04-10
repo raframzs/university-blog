@@ -1,5 +1,6 @@
 package com.raframz.universityblog.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.raframz.universityblog.adapter.controller.model.SaveBlogRequest;
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -9,6 +10,7 @@ import lombok.ToString;
 import org.hibernate.Hibernate;
 
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.Objects;
 
 @Getter
@@ -30,6 +32,10 @@ public class Blog {
     @ManyToOne
     @JoinColumn(name = "curse_id", referencedColumnName = "id")
     private Curse curse;
+    @JsonIgnore
+    @OneToMany(mappedBy = "blog")
+    @ToString.Exclude
+    private List<Stats> stats;
 
     @Override
     public boolean equals(Object o) {
