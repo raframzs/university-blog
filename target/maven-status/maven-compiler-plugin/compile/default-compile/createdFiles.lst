@@ -25,6 +25,7 @@ com/raframz/universityblog/application/in/IUserBlogQuery.class
 com/raframz/universityblog/application/usecase/CurseUseCase.class
 com/raframz/universityblog/adapter/controller/model/ResponseRest.class
 com/raframz/universityblog/domain/UserBlog$UserBlogBuilder.class
+com/raframz/universityblog/config/WebConfig.class
 com/raframz/universityblog/domain/Curse.class
 com/raframz/universityblog/adapter/controller/model/SaveBlogRequest$SaveBlogRequestBuilder.class
 com/raframz/universityblog/adapter/controller/model/ResponseRest$ResponseRestBuilder.class

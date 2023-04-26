@@ -24,6 +24,7 @@
 /Users/rafaelramirez/Documents/Develop/java-projects/university-blog/src/main/java/com/raframz/universityblog/config/exception/GenericExeption.java
 /Users/rafaelramirez/Documents/Develop/java-projects/university-blog/src/main/java/com/raframz/universityblog/UniversityBlogApplication.java
 /Users/rafaelramirez/Documents/Develop/java-projects/university-blog/src/main/java/com/raframz/universityblog/config/ErrorCode.java
+/Users/rafaelramirez/Documents/Develop/java-projects/university-blog/src/main/java/com/raframz/universityblog/config/WebConfig.java
 /Users/rafaelramirez/Documents/Develop/java-projects/university-blog/src/main/java/com/raframz/universityblog/application/in/ITeacherQuery.java
 /Users/rafaelramirez/Documents/Develop/java-projects/university-blog/src/main/java/com/raframz/universityblog/config/exception/BadRequestResourceException.java
 /Users/rafaelramirez/Documents/Develop/java-projects/university-blog/src/main/java/com/raframz/universityblog/application/out/IBlogRepository.java
